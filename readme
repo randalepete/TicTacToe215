@@ -1,0 +1,8 @@
+i use this makefile by utilizing the targets created.
+this build target it files and links a C++ program. Here is what each variable represents:
+
+the add target This target appends the output of the command 1 2 3 (which evaluates to 1 2 3 being printed to stdout) to the file specified by the variable $(ADDF), creating the file if it does not exist. The $(EXE) part of the command does not seem to have any relevance to this particular target.
+
+the sub target subtracts the numbers 1, 2, and -1, and then appends the result to the file specified by the variable $(SUBF). The $(EXE) portion likely refers to a compiled executable that performs the subtraction operation.
+
+the multi target calls the varable then hods the name of a exicutiable. the * is the wild card that matches the name in the current directory.
